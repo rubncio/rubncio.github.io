@@ -4,11 +4,260 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.2/font/bootstrap-icons.css">
     <title>CV</title>
+  
+    
+   
 </head>
-<body>
-    <p>
-        adfasdasd
-    </p>
+<header>
+    <div class="row position:fixed bg-light "> 
+        <div class=" col nav justify-content-center me-5 mt-3 dropdown pb-3"  >
+            <button type="button" class="nav-item btn btn-outline-primary rounded mx-4 btn-lg dropdown-toggle" id="Sobre-Mi" href="#" data-bs-toggle="dropdown" >Sobre Mí</button>
+            <ul class="dropdown-menu" aria-labelledby="Sobre-Mi">
+                <li><a class="dropdown-item" href="SobreMI.html#ObjetivosProf">Objetivos Profesionales</a></li>
+                <li><a class="dropdown-item" href="SobreMI.html#CompetPersonales">Competencias personales</a></li>
+                <li><a class="dropdown-item" href="SobreMI.html#DatosInteres">Habilidades</a></li>
+                <li><a class="dropdown-item" href="SobreMI.html#InteresesPersonal">Intereses Personales</a></li>
+            </ul>
+            <button type="button" class="nav-item btn btn-outline-dark btn-2 bg-secondary text-light rounded mx-1 btn-lg" ><a class="link-light" style="text-decoration: none;" href="#InformInteres">Informacion de interés</a> </button>
+            <button type="button" class="nav-item btn btn-outline-dark bg-secondary text-light rounded mx-1 btn-lg" ><a class="link-light" style="text-decoration: none;" href="#Lenguajes">Lenguajes</a></button>
+            <button type="button" class="nav-item btn btn-outline-dark bg-secondary text-light rounded mx-1 btn-lg" ><a class="link-light" style="text-decoration: none;" href="#Contacto">Contacto</a></button>
+    
+        </div>
+    </div>
+</header>
+
+<body style="background-color: rgb(73, 44, 44);">
+    <div class="container-fluid fs-5 text-light text-center mt-3" style="height: 15vh;"><p>Hola soy Ruben.<br>
+        Soy desarrollador de software . Me encanta trabajar con tecnologías punteras e investigar sobre lo que aprendo.</p> 
+    </div>
+    <div><div class="row  justify-content-center container-fluid fs-3 text-light "><div class="col-5  border-bottom border-dark border-5 fw-bold text-center text-secondary mb-5" id="InformInteres">Informacion de Interés</div> 
+    </div></div>
+<div class="row justify-content-center ">
+    <div class="col-8 ">
+<div class="accordion" id="accordionExample">
+    <div class="accordion-item">
+        <h2 class="accordion-header" id="headingDatosPersonales">
+          <button class="accordion-button border border-dark bg-secondary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapsethree" aria-expanded="true" aria-controls="collapsethree">
+           Datos Personales
+          </button>
+        </h2>
+        <div id="collapsethree" class="accordion-collapse collapse" aria-labelledby="headingDatosPersonales" data-bs-parent="#accordionExample">
+          <div class="accordion-body text-light" style="background-color: rgb(73, 44, 44);">
+           
+            <p><b class="text-primary">Nombre:</b> Ruben<br><b class="text-primary">Apellidos:</b>Cano Montoya <br> <b class="text-primary">Edad Actual:</b> 21<br><b class="text-primary">Telefono:</b> xxx-xxx-xx
+            </p> 
+          </div>
+        </div>
+      </div>
+    
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingOne">
+        <button class="accordion-button border border-dark bg-secondary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+         Formacion
+        </button>
+      </h2>
+      <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+        <div class="accordion-body text-light" style="background-color: rgb(73, 44, 44);">
+        <p>  <br><b class="text-primary">2019</b> ESO  en "IES Cervantes", Madrid<br><br>
+             <b class="text-primary">2021</b> CFGM(Ciclo Formativo de Grado Medio) de SMR(Sistemas Microinformáticos y Redes) en "Santa Maria de los Apostoles", Madrid<br><br>
+             <b class="text-primary">2023</b> CFGS(Ciclo Formativo de Grado Superior) de DAM(Desarrollo de Aplicaciones Multiplataforma) en "Santa Maria de los Apostoles", Madrid<br><br>
+        </p>
+        </div>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <h2 class="accordion-header" id="headingTwo">
+        <button class="accordion-button collapsed border border-dark bg-secondary text-light" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Experiencia Laboral
+        </button>
+      </h2>
+      <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+        <div class="accordion-body text-light" style="background-color: rgb(73, 44, 44);">
+            <p>  <br><b class="text-primary">67 Días</b> Practicas en IRIUM(Proyecto QuironPrevencion) desde 15/04/2021 hasta 21/06/2021<br><br>
+           </p>
+        </div>
+      </div>
+    </div>
+   
+  </div>
+</div>
+</div>
+
+<div class="row  justify-content-center container-fluid fs-3 text-light mt-5"><div class="col-5  border-bottom border-dark border-5 fw-bold text-center text-secondary" id="Lenguajes">Lenguajes</div> 
+</div>
+<div class="w-100" style="height: 5vh;"></div>
+<div class="row text-center "><div class="col-10 text-light mx-auto ">A continuacion se muestran los lenguajes que se han aprendido junto con mas informacion acerca del aprendizaje del lenguaje:<br> <b>Haga clic en el icono para averiguar los conceptos aprendidos</b></div>   </div>
+<div class="w-100" style="height: 5vh;"></div>
+<div class="row justify-content-center">
+    <div class="col-1">
+        <a  data-bs-toggle="collapse" href="#collapseJava" role="button" aria-expanded="false" aria-controls="collapseJava">
+            <img src="logos\Java-logo.png" style="height: 7vh;" >
+          </a>
+    </div>
+    <div class="col-6">
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 90%;" aria-valuenow="90" aria-valuemin="0" aria-valuemax="90">90%</div>
+          </div>
+    </div>
+
+</div>
+
+  <div class="collapse w-50 mx-auto border border-3 border-light" id="collapseJava">
+    <div class="card card-body text-secondary text-center" style="background-color: rgb(73, 44, 44);">
+      Conceptos aprendidos: <br><b class="text-primary ">Pseudocodigo, Casting, Diagramas de Flujo(ordinograma), Diagrama de Clases, Parte Gráfica(Javax.Swing, Joption.Pane, ect..)POO(Herencias, Interfaces), Colecciones, Array, Estructuras Condicionales, de seleccion y de bucle, Excepciones, JDBC, Acesso a ficheros</b>
+    </div>
+  </div>
+  <div class="row justify-content-center pt-5">
+    <div class="col-1">
+        <a  data-bs-toggle="collapse" href="#collapseCesar" role="button" aria-expanded="false" aria-controls="collapseCesar">
+            <img src="logos\Csar-logo.png" style="height: 7vh;" >
+          </a>
+    </div>
+    <div class="col-6">
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 25%;" aria-valuenow="25" aria-valuemin="0" aria-valuemax="25">25%</div>
+          </div>
+    </div>
+
+</div>
+<div class="collapse w-50 mx-auto border border-3 border-light" id="collapseCesar">
+    <div class="card card-body text-secondary text-center" style="background-color: rgb(73, 44, 44);">
+      Conceptos aprendidos: <br><b class="text-primary ">Array, Estructuras Condicionales, de seleccion y de bucle</b> 
+    </div>
+  </div>
+
+  <div class="row justify-content-center pt-5">
+    <div class="col-1 ">
+        <a  data-bs-toggle="collapse" href="#collapseJS" role="button" aria-expanded="false" aria-controls="collapseJS">
+            <img src="logos\Javascript-logo.png" style="height: 7vh;" >
+          </a>
+    </div>
+    <div class="col-6 ">
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="75">75%</div>
+          </div>
+    </div>
+
+</div>
+<div class="collapse w-50 mx-auto border border-3 border-light" id="collapseJS">
+    <div class="card card-body text-secondary text-center" style="background-color: rgb(73, 44, 44);">
+      Conceptos aprendidos: <br><b class="text-primary">Tipos de datos y objetos, Objetos DOM, Expresiones numéricas, Expresiones Lógicas, Expresiones de Comparación, Array, Estructuras de control de flujo, funciones, Ámbito de variables</b>
+    </div>
+  </div>
+
+
+  <div class="row justify-content-center pt-5">
+    <div class="col-1 ">
+        <a  data-bs-toggle="collapse" href="#collapseHtml" role="button" aria-expanded="false" aria-controls="collapseHtml">
+            <img src="logos\html-logo.png" style="height: 7vh;" >
+          </a>
+    </div>
+    <div class="col-6 ">
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="80">80%</div>
+          </div>
+    </div>
+
+</div>
+<div class="collapse w-50 mx-auto border border-3 border-light" id="collapseHtml">
+    <div class="card card-body text-secondary text-center" style="background-color: rgb(73, 44, 44);">
+      Conceptos aprendidos: <br><b class="text-primary"> HTML5, despiece de etiquetas, anatomia de un elemento HTML, orden de anidacion, Elementos Parrafos, Elementos Cabezeras, Texto Formateado, Atributos, Elemento Enlaces, Insercion de etiqueta de Imagen, Etiquetas de Listas, </b>
+    </div>
+  </div>
+
+  <div class="row justify-content-center pt-5">
+    <div class="col-1 ">
+        <a  data-bs-toggle="collapse" href="#collapseCSS" role="button" aria-expanded="false" aria-controls="collapseCSS">
+            <img src="logos\css-logo.png" style="height: 7vh;" >
+          </a>
+    </div>
+    <div class="col-6 ">
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="85">85%</div>
+          </div>
+    </div>
+
+</div>
+<div class="collapse w-50 mx-auto border border-3 border-light" id="collapseCSS">
+    <div class="card card-body text-secondary text-center" style="background-color: rgb(73, 44, 44);">
+      Conceptos aprendidos: <br><b class="text-primary">Tipos de Selectores, Reglas del CSS, Tipos de conexion CSS a HTML, Uso de Clases, Uso de ID, Propagacion de estilos, Prioridad de reglas CSS, Pseudo-Clases, Box Model, wrappers, Tipos de posicionamiento</b>
+    </div>
+  </div>
+  <div class="row justify-content-center pt-5">
+    <div class="col-1 ">
+        <a  data-bs-toggle="collapse" href="#collapseXML" role="button" aria-expanded="false" aria-controls="collapseXML">
+            <img src="logos\xml-logo.png" style="height: 7vh;" >
+          </a>
+    </div>
+    <div class="col-6 ">
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="65">65%</div>
+          </div>
+    </div>
+
+</div>
+<div class="collapse w-50 mx-auto border border-3 border-light" id="collapseXML">
+    <div class="card card-body text-secondary text-center" style="background-color: rgb(73, 44, 44);">
+      Conceptos aprendidos: <br><b class="text-primary">Declaracion de elementos, Tipos Simples y complejos, Declaracion de atributos y Grupos de elementos y atributos, modelado de datos XMLSchema</b>
+    </div>
+  </div>
+
+  <div class="row justify-content-center pt-5">
+    <div class="col-1 ">
+        <a  data-bs-toggle="collapse" href="#collapseDTD" role="button" aria-expanded="false" aria-controls="collapseDTD">
+            <img src="logos\dtd-logo.png" style="height: 7vh;" >
+          </a>
+    </div>
+    <div class="col-6 ">
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0" aria-valuemax="75">75%</div>
+          </div>
+    </div>
+
+</div>
+<div class="collapse w-50 mx-auto border border-3 border-light" id="collapseDTD">
+    <div class="card card-body text-secondary text-center" style="background-color: rgb(73, 44, 44);">
+      Conceptos aprendidos: <br><b class="text-primary">Asociacion de documentos con una DTD, Tipos de declaraciones(entidades, atributos, notaciones, tipos de elementos).</b>
+    </div>
+  </div>
+
+  <div class="row justify-content-center pt-5">
+    <div class="col-1 ">
+        <a  data-bs-toggle="collapse" href="#collapsesql" role="button" aria-expanded="false" aria-controls="collapsesql">
+            <img src="logos\sql-logo.png" style="height: 7vh;" >
+          </a>
+    </div>
+    <div class="col-6 ">
+        <div class="progress">
+            <div class="progress-bar" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="65">65%</div>
+          </div>
+    </div>
+
+</div>
+<div class="collapse w-50 mx-auto border border-3 border-light" id="collapsesql">
+    <div class="card card-body text-secondary text-center" style="background-color: rgb(73, 44, 44);">
+      Conceptos aprendidos: <br><b class="text-primary">Intrucciones de control, Instrucciones de Estructurado de datos, Instrucciones de datos, Constraint, Llaves Foráneas, Llaves foráneas bidireccionales, Selects, Joins, Procedures, Triggers</b>
+    </div>
+  </div>
+
+
+<footer class="py-5 mt-5 bg-dark text-light text-center">
+<b><u id="Contacto">Contacto</u></b><br>
+<b>E-mail:</b> erreceeme20@gmail.com<br>
+<div class="container">
+<a class="bi bi-twitter mx-2 link-info" href="https://twitter.com/home?lang=es" ></a>
+<a class="bi bi-linkedin mx-2 link-info" href="https://es.linkedin.com/"></a>
+<a class="bi bi-github mx-2 link-info" href="https://github.com/rubncio"></a>
+<a class="bi bi-instagram mx-2 link-info" href="https://www.instagram.com/"></a>
+<a class="bi bi-facebook mx-2 link-info" href="https://www.facebook.com/"></a>
+</div>
+<br>
+<p class="fw-light fs-6">© 2021 – Ruben Cano Montoya</p>
+
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
 </body>
 </html>
